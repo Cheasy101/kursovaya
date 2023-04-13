@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kursovaya.newkursovayaversion3.AdminLikedController">
+   <children>
+      <TableView fx:id="catalogTable" prefHeight="274.0" prefWidth="600.0">
+         <columns>
+            <TableColumn fx:id="userName" prefWidth="75.0" text="Имя" />
+            <TableColumn fx:id="userProfession" prefWidth="75.0" text="Профессия" />
+            <TableColumn fx:id="userSalary" prefWidth="75.0" text="ЗП" />
+            <TableColumn fx:id="userExpirience" prefWidth="75.0" text="Опыт" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>
